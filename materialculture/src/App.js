@@ -41,14 +41,23 @@ function App() {
       </div>
       <div className="gallery">
         <div className="container">
-          <div className="row">
+          <div className="row justify-content-center">
             {myArray.map((item) => {
-              return (
-                <div className="col-2 py-4">
-                  <GalleryItem imageSrc={"gallery" + item + ".png"} />
-                </div>
-              );
+              return <GalleryItem imageSrc={"gallery" + item + ".png"} />;
             })}
+          </div>
+        </div>
+      </div>
+      <div className="made-by-container">
+        <div className="container">
+          <div className="row justify-content-center">
+            <div className="col-12 text-center">
+              <p className="made-by">
+                Created by{" "}
+                <a href="https://kopfportfolio.wixsite.com/2021">Kate Kopf</a> |
+                Built by <a href="https://danielknopf.com">Daniel Knopf</a>
+              </p>
+            </div>
           </div>
         </div>
       </div>

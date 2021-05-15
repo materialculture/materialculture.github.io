@@ -1,5 +1,13 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .header {
   padding: 4rem;
+}
+
+.made-by a {
+  color: black;
 }
 
 /* .App {
