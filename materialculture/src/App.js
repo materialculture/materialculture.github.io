@@ -3,7 +3,31 @@ import "./App.css";
 import GalleryItem from "./components/GalleryItem";
 import listReactFiles from "list-react-files";
 
+function shuffle(array) {
+  var currentIndex = array.length,
+    temporaryValue,
+    randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
 function App() {
+  var myArray = Array.from(Array(7), (e, i) => i);
+  shuffle(myArray);
+  console.log("my array is:", myArray);
+
   var galleryImgs = [];
   console.log(galleryImgs);
   return (
@@ -18,10 +42,10 @@ function App() {
       <div className="gallery">
         <div className="container">
           <div className="row">
-            {Array.from(Array(7), (e, i) => {
+            {myArray.map((item) => {
               return (
                 <div className="col-2 py-4">
-                  <GalleryItem imageSrc={"gallery" + i + ".png"} />
+                  <GalleryItem imageSrc={"gallery" + item + ".png"} />
                 </div>
               );
             })}
