@@ -54,8 +54,8 @@ function App() {
             <div className="col-12 text-center">
               <p className="made-by">
                 Created by{" "}
-                <a href="https://kopfportfolio.wixsite.com/2021">Kate Kopf</a> |
-                Built by <a href="https://danielknopf.com">Daniel Knopf</a>
+                <a href="https://kopfportfolio.wixsite.com/2021">kate kopf</a> |
+                Built by <a href="https://danielknopf.com">daniel knopf</a>
               </p>
             </div>
           </div>
