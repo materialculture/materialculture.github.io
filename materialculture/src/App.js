@@ -50,7 +50,7 @@ function App() {
       </div>
       <div className="made-by-container">
         <div className="container">
-          <div className="row justify-content-center">
+          <div className="row justify-content-center py-2">
             <div className="col-12 text-center">
               <p className="made-by">
                 Created by{" "}
