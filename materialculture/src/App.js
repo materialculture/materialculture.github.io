@@ -24,7 +24,7 @@ function shuffle(array) {
 }
 
 function App() {
-  var myArray = Array.from(Array(7), (e, i) => i);
+  var myArray = Array.from(Array(150), (e, i) => i);
   shuffle(myArray);
   console.log("my array is:", myArray);
 
