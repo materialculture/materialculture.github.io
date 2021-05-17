@@ -1,7 +1,6 @@
 import "./GalleryItem.css";
 
 function GalleryItem(props) {
-  console.log("image src is:", props.imageSrc);
   return (
     <>
       <div className="col-3 p-4 text-center">
