@@ -53,9 +53,9 @@ function App() {
           <div className="row justify-content-center py-2">
             <div className="col-12 text-center">
               <p className="made-by">
-                Created by{" "}
+                created by{" "}
                 <a href="https://kopfportfolio.wixsite.com/2021">kate kopf</a> |
-                Built by <a href="https://danielknopf.com">daniel knopf</a>
+                built by <a href="https://danielknopf.com">daniel knopf</a>
               </p>
             </div>
           </div>
