@@ -35,7 +35,7 @@ function App() {
       <div className="header">
         <div className="container">
           <div className="row text-center">
-            <h2>material culture</h2>
+            <h2>m a t e r i a l &nbsp;&nbsp; c u l t u r e</h2>
           </div>
         </div>
       </div>
