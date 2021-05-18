@@ -3,11 +3,16 @@ body {
 }
 
 .header {
-  padding: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
 
 .made-by a {
   color: black;
+}
+
+.made-by {
+  font-size: 0.7rem;
 }
 
 /* .App {
